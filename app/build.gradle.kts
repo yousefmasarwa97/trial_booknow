@@ -75,12 +75,15 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    implementation("com.github.bumptech.glide:glide:${rootProject.extra["glideVersion"]}")// This dependency is used to enable media management and image loading.
+    implementation("com.github.bumptech.glide:glide:4.12.0")// This dependency is used to enable media management and image loading.
     annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")// ....
     implementation("com.google.firebase:firebase-storage")// This dependency is used to enable the users use firebase storage to store data such as images.
     implementation("com.google.android.material:material:1.1.0")// Not the latest version ,, this dependency is used for design materials (GUI).
     implementation("com.hbb20:ccp:2.5.2")// Not the latest version ,, this dependency is used to enable using the country code picker in the app.
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.30") // The latest libphonenumber version (Release) ,, this dependency is used to check whether a ph number is valid or not.
     implementation("io.github.chaosleung:pinview:1.4.4")// (check the version),, This dependency is used for OTP PIN view design
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
+
 
 }

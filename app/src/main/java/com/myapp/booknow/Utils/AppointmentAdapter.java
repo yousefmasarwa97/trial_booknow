@@ -22,7 +22,7 @@ public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.
     private List<Appointment> appointmentList;
 
 
-    public AppointmentAdapter(List<Appointment> list){
+    AppointmentAdapter(List<Appointment> list){
         this.appointmentList = list;
     }
 
